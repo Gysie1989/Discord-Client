@@ -1,7 +1,6 @@
 {
   "name": "discord-client",
   "version": "1.0.0",
-  "description": "Node app",
   "main": "selfbot.js",
   "scripts": {
     "start": "node selfbot.js"
@@ -10,6 +9,7 @@
     "node": "20.x"
   },
   "dependencies": {
-    "axios": "^1.7.7"
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5"
   }
 }
