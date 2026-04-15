@@ -1,15 +1,16 @@
 {
-  "name": "discord-client",
+  "name": "discord-official-bot",
   "version": "1.0.0",
-  "main": "selfbot.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node selfbot.js"
+    "start": "node index.js"
   },
   "engines": {
     "node": "20.x"
   },
   "dependencies": {
-    "axios": "^1.7.7",
-    "dotenv": "^16.4.5"
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "axios": "^1.7.7"
   }
 }
